@@ -20,6 +20,10 @@ O objetivo foi simular um cenário real de Engenharia de Dados: ingestão de arq
 2.  **Conexão Remota (VS Code ↔️ Nuvem):**
     - Configuração de driver PostgreSQL no VS Code.
     - Tunelamento seguro para acesso ao banco de produção.
+  
+ 3. **Análises Realizadas (SQL):**
+    * **Ranking de Volumetria:** Identificação de outliers de vendas.
+    * **Basket Analysis (Agrupamento):** Análise de "tamanho do pedido" via agregações (`GROUP BY OrderNumber`) para identificar perfil de compra B2B e concentração de receita.
 
 ## 🔐 Desafios Técnicos Superados (Troubleshooting)
 
